@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CrystalReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:crystal-reports:schemas:report-detail http://www.businessobjects.com/products/xml/CR2008Schema.xsd">
+<ReportHeader>
+<Section SectionNumber="0">
+</Section>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+</Section>
+</Details>
+<ReportFooter>
+<Section SectionNumber="0">
+<Subreport Name="Subreport1">
+<ReportHeader>
+<Section SectionNumber="1">
+<Text Name="Text7"><TextValue>نام محصول</TextValue>
+</Text>
+<Text Name="Text1"><TextValue>واحد</TextValue>
+</Text>
+<Text Name="Text2"><TextValue>تعداد تولید
+</TextValue>
+</Text>
+<Text Name="Text3"><TextValue>تعداد فروش
+</TextValue>
+</Text>
+<Text Name="Text4"><TextValue>نرخ فروش (ریال)
+</TextValue>
+</Text>
+<Text Name="Text6"><TextValue>مبلغ فروش (میلیون ریال)
+</TextValue>
+</Text>
+<Text Name="Text12"><TextValue>تعداد تولید
+</TextValue>
+</Text>
+<Text Name="Text13"><TextValue>تعداد فروش
+</TextValue>
+</Text>
+<Text Name="Text14"><TextValue>نرخ فروش (ریال)
+</TextValue>
+</Text>
+<Text Name="Text15"><TextValue>مبلغ فروش (میلیون ریال)
+</TextValue>
+</Text>
+<Text Name="Text16"><TextValue>دوره یک ماه منتهی به
+</TextValue>
+</Text>
+<Text Name="Text17"><TextValue>از ابتدای سال مالی تا پایان مورخ
+</TextValue>
+</Text>
+<Field Name="PeriodEndToDate1" FieldName="{Letter.PeriodEndToDate}"><FormattedValue>1397/02/31</FormattedValue><Value>1397/02/31</Value></Field>
+<Field Name="PeriodEndToDate2" FieldName="{Letter.PeriodEndToDate}"><FormattedValue>1397/02/31</FormattedValue><Value>1397/02/31</Value></Field>
+</Section>
+</ReportHeader>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ProductName1" FieldName="{ProductionAndSales.ProductName}"><FormattedValue>آهن اسفنجي داخلي</FormattedValue><Value>آهن اسفنجي داخلي</Value></Field>
+<Field Name="ProductUnit1" FieldName="{ProductionAndSales.ProductUnit}"><FormattedValue>تن</FormattedValue><Value>تن</Value></Field>
+<Field Name="MonthTotalProduction1" FieldName="{ProductionAndSales.MonthTotalProduction}"><FormattedValue>21,823</FormattedValue><Value>21,823</Value></Field>
+<Field Name="MonthTotalSales1" FieldName="{ProductionAndSales.MonthTotalSales}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="MonthSalesAmount1" FieldName="{ProductionAndSales.MonthSalesAmount}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="MonthSalesRate1" FieldName="{ProductionAndSales.MonthSalesRate}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="YearTotalProduction1" FieldName="{ProductionAndSales.YearTotalProduction}"><FormattedValue>121,823</FormattedValue><Value>121,823</Value></Field>
+<Field Name="YearTotalSales1" FieldName="{ProductionAndSales.YearTotalSales}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="YearSalesAmount1" FieldName="{ProductionAndSales.YearSalesAmount}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="YearSalesRate1" FieldName="{ProductionAndSales.YearSalesRate}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ProductName1" FieldName="{ProductionAndSales.ProductName}"><FormattedValue>آهن اسفنجي صادراتي</FormattedValue><Value>آهن اسفنجي صادراتي</Value></Field>
+<Field Name="ProductUnit1" FieldName="{ProductionAndSales.ProductUnit}"><FormattedValue>تن</FormattedValue><Value>تن</Value></Field>
+<Field Name="MonthTotalProduction1" FieldName="{ProductionAndSales.MonthTotalProduction}"><FormattedValue>55,290</FormattedValue><Value>55,290</Value></Field>
+<Field Name="MonthTotalSales1" FieldName="{ProductionAndSales.MonthTotalSales}"><FormattedValue>18,589</FormattedValue><Value>18,589</Value></Field>
+<Field Name="MonthSalesAmount1" FieldName="{ProductionAndSales.MonthSalesAmount}"><FormattedValue>231,315</FormattedValue><Value>231,315</Value></Field>
+<Field Name="MonthSalesRate1" FieldName="{ProductionAndSales.MonthSalesRate}"><FormattedValue>12,443,649</FormattedValue><Value>12,443,649</Value></Field>
+<Field Name="YearTotalProduction1" FieldName="{ProductionAndSales.YearTotalProduction}"><FormattedValue>79,857</FormattedValue><Value>79,857</Value></Field>
+<Field Name="YearTotalSales1" FieldName="{ProductionAndSales.YearTotalSales}"><FormattedValue>24,420</FormattedValue><Value>24,420</Value></Field>
+<Field Name="YearSalesAmount1" FieldName="{ProductionAndSales.YearSalesAmount}"><FormattedValue>303,560</FormattedValue><Value>303,560</Value></Field>
+<Field Name="YearSalesRate1" FieldName="{ProductionAndSales.YearSalesRate}"><FormattedValue>12,430,794</FormattedValue><Value>12,430,794</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ProductName1" FieldName="{ProductionAndSales.ProductName}"><FormattedValue>آهن اسفنجي کارمزدي</FormattedValue><Value>آهن اسفنجي کارمزدي</Value></Field>
+<Field Name="ProductUnit1" FieldName="{ProductionAndSales.ProductUnit}"><FormattedValue>تن</FormattedValue><Value>تن</Value></Field>
+<Field Name="MonthTotalProduction1" FieldName="{ProductionAndSales.MonthTotalProduction}"><FormattedValue>2,524</FormattedValue><Value>2,524</Value></Field>
+<Field Name="MonthTotalSales1" FieldName="{ProductionAndSales.MonthTotalSales}"><FormattedValue>2,524</FormattedValue><Value>2,524</Value></Field>
+<Field Name="MonthSalesAmount1" FieldName="{ProductionAndSales.MonthSalesAmount}"><FormattedValue>6,310</FormattedValue><Value>6,310</Value></Field>
+<Field Name="MonthSalesRate1" FieldName="{ProductionAndSales.MonthSalesRate}"><FormattedValue>2,500,000</FormattedValue><Value>2,500,000</Value></Field>
+<Field Name="YearTotalProduction1" FieldName="{ProductionAndSales.YearTotalProduction}"><FormattedValue>22,133</FormattedValue><Value>22,133</Value></Field>
+<Field Name="YearTotalSales1" FieldName="{ProductionAndSales.YearTotalSales}"><FormattedValue>22,133</FormattedValue><Value>22,133</Value></Field>
+<Field Name="YearSalesAmount1" FieldName="{ProductionAndSales.YearSalesAmount}"><FormattedValue>55,333</FormattedValue><Value>55,333</Value></Field>
+<Field Name="YearSalesRate1" FieldName="{ProductionAndSales.YearSalesRate}"><FormattedValue>2,500,023</FormattedValue><Value>2,500,023</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ProductName1" FieldName="{ProductionAndSales.ProductName}"><FormattedValue>شمش بيلت صادراتي</FormattedValue><Value>شمش بيلت صادراتي</Value></Field>
+<Field Name="ProductUnit1" FieldName="{ProductionAndSales.ProductUnit}"><FormattedValue>تن</FormattedValue><Value>تن</Value></Field>
+<Field Name="MonthTotalProduction1" FieldName="{ProductionAndSales.MonthTotalProduction}"><FormattedValue>73,675</FormattedValue><Value>73,675</Value></Field>
+<Field Name="MonthTotalSales1" FieldName="{ProductionAndSales.MonthTotalSales}"><FormattedValue>63,810</FormattedValue><Value>63,810</Value></Field>
+<Field Name="MonthSalesAmount1" FieldName="{ProductionAndSales.MonthSalesAmount}"><FormattedValue>1,355,171</FormattedValue><Value>1,355,171</Value></Field>
+<Field Name="MonthSalesRate1" FieldName="{ProductionAndSales.MonthSalesRate}"><FormattedValue>21,237,596</FormattedValue><Value>21,237,596</Value></Field>
+<Field Name="YearTotalProduction1" FieldName="{ProductionAndSales.YearTotalProduction}"><FormattedValue>145,602</FormattedValue><Value>145,602</Value></Field>
+<Field Name="YearTotalSales1" FieldName="{ProductionAndSales.YearTotalSales}"><FormattedValue>135,737</FormattedValue><Value>135,737</Value></Field>
+<Field Name="YearSalesAmount1" FieldName="{ProductionAndSales.YearSalesAmount}"><FormattedValue>2,895,155</FormattedValue><Value>2,895,155</Value></Field>
+<Field Name="YearSalesRate1" FieldName="{ProductionAndSales.YearSalesRate}"><FormattedValue>21,329,151</FormattedValue><Value>21,329,151</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ProductName1" FieldName="{ProductionAndSales.ProductName}"><FormattedValue>شمش بيلت داخلي</FormattedValue><Value>شمش بيلت داخلي</Value></Field>
+<Field Name="ProductUnit1" FieldName="{ProductionAndSales.ProductUnit}"><FormattedValue>تن</FormattedValue><Value>تن</Value></Field>
+<Field Name="MonthTotalProduction1" FieldName="{ProductionAndSales.MonthTotalProduction}"><FormattedValue>5,000</FormattedValue><Value>5,000</Value></Field>
+<Field Name="MonthTotalSales1" FieldName="{ProductionAndSales.MonthTotalSales}"><FormattedValue>6,706</FormattedValue><Value>6,706</Value></Field>
+<Field Name="MonthSalesAmount1" FieldName="{ProductionAndSales.MonthSalesAmount}"><FormattedValue>146,925</FormattedValue><Value>146,925</Value></Field>
+<Field Name="MonthSalesRate1" FieldName="{ProductionAndSales.MonthSalesRate}"><FormattedValue>21,909,484</FormattedValue><Value>21,909,484</Value></Field>
+<Field Name="YearTotalProduction1" FieldName="{ProductionAndSales.YearTotalProduction}"><FormattedValue>25,196</FormattedValue><Value>25,196</Value></Field>
+<Field Name="YearTotalSales1" FieldName="{ProductionAndSales.YearTotalSales}"><FormattedValue>9,105</FormattedValue><Value>9,105</Value></Field>
+<Field Name="YearSalesAmount1" FieldName="{ProductionAndSales.YearSalesAmount}"><FormattedValue>199,203</FormattedValue><Value>199,203</Value></Field>
+<Field Name="YearSalesRate1" FieldName="{ProductionAndSales.YearSalesRate}"><FormattedValue>21,878,418</FormattedValue><Value>21,878,418</Value></Field>
+</Section>
+</Details>
+<Details Level="1">
+<Section SectionNumber="0">
+<Field Name="ProductName1" FieldName="{ProductionAndSales.ProductName}"><FormattedValue/><Value/></Field>
+<Field Name="ProductUnit1" FieldName="{ProductionAndSales.ProductUnit}"><FormattedValue/><Value/></Field>
+<Field Name="MonthTotalProduction1" FieldName="{ProductionAndSales.MonthTotalProduction}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="MonthTotalSales1" FieldName="{ProductionAndSales.MonthTotalSales}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="MonthSalesAmount1" FieldName="{ProductionAndSales.MonthSalesAmount}"><FormattedValue>1,739,721</FormattedValue><Value>1,739,721</Value></Field>
+<Field Name="MonthSalesRate1" FieldName="{ProductionAndSales.MonthSalesRate}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="YearTotalProduction1" FieldName="{ProductionAndSales.YearTotalProduction}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="YearTotalSales1" FieldName="{ProductionAndSales.YearTotalSales}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+<Field Name="YearSalesAmount1" FieldName="{ProductionAndSales.YearSalesAmount}"><FormattedValue>3,453,251</FormattedValue><Value>3,453,251</Value></Field>
+<Field Name="YearSalesRate1" FieldName="{ProductionAndSales.YearSalesRate}"><FormattedValue>0</FormattedValue><Value>0</Value></Field>
+</Section>
+</Details>
+<ReportFooter>
+<Section SectionNumber="0">
+<Text Name="Text28"><TextValue>کادر توضیحی مربوط به اطلاعات دوره 1 ماهه منتهی به
+</TextValue>
+</Text>
+<Text Name="Text29"><TextValue>کادر توضیحی مربوط اطلاعات تجمعی از ابتدای سال تا پایان مورخ </TextValue>
+</Text>
+<Field Name="MonthDesc1" FieldName="{LetterDescription.MonthDesc}"><FormattedValue/><Value/></Field>
+<Field Name="YearDesc1" FieldName="{LetterDescription.YearDesc}"><FormattedValue/><Value/></Field>
+<Field Name="PeriodEndToDate3" FieldName="{Letter.PeriodEndToDate}"><FormattedValue>1397/02/31</FormattedValue><Value>1397/02/31</Value></Field>
+<Field Name="PeriodEndToDate4" FieldName="{Letter.PeriodEndToDate}"><FormattedValue>1397/02/31</FormattedValue><Value>1397/02/31</Value></Field>
+</Section>
+</ReportFooter>
+</Subreport>
+</Section>
+</ReportFooter>
+</CrystalReport>
