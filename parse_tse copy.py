@@ -1,9 +1,9 @@
 # Parse last price from tse
-def last_price(namad):
+def last_price(url):
 
     import requests
     from bs4 import BeautifulSoup
-    url = namad_url(namad)
+
     page = requests.get(url)
     soup = BeautifulSoup(page.text, "html.parser")
     scripts = soup.find_all('script')
@@ -14,12 +14,3 @@ def last_price(namad):
 
     return lp
 
-
-def namad_url(namad):
-    import csv
-    with open('namad_url.csv', 'r') as csvfile:
-        reader = csv.reader(csvfile, delimiter=',')
-        name = {}
-        for row in reader:
-            name.update({row[0]: row[1]})
-    return name[namad]
