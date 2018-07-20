@@ -78,4 +78,9 @@ for row in monthly_sales:
     if sales[row[0]][mnth-1, 1] != 0 and sales[row[0]][mnth-1, 2] != 0:
         sales[row[0]][mnth - 1, 3] = (sales[row[0]][mnth-1, 2] - sales[row[0]][mnth-1, 1])/sales[row[0]][mnth-1, 1]*100
 
-print(sales)
+np.set_printoptions(precision=0)
+
+print('3 month sale 1396       3 month sale 1397       %increase       namad')
+for namad in sales:
+    print("{0:,}                 {1:,}          {2:,}       ".format(sales[namad][2, 1], sales[namad][2, 2], sales[namad][2, 3]), namad)
+
